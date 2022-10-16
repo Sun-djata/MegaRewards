@@ -1,5 +1,5 @@
 
-                                       ####### MEGA REWARDS #####
+#                                       ####### MEGA REWARDS #######
 
 # Description:
 
@@ -33,10 +33,10 @@ way that:
         randomly chosen).
 
 Additionally each participant will receive an NFT according to the grade achieved:
-     MegaRewards-GRADE-A-NFT for the grade A participants
-     MegaRewards-GRADE-B-NFT for the grade B participants
-     MegaRewards-GRADE-C-NFT for the grade C participants
-     MegaRewards-GRADE-D-NFT for the grade D participants
+- MegaRewards-GRADE-A-NFT for the grade A participants
+- MegaRewards-GRADE-B-NFT for the grade B participants
+- MegaRewards-GRADE-C-NFT for the grade C participants
+- MegaRewards-GRADE-D-NFT for the grade D participants
 
 
 
@@ -111,14 +111,17 @@ This would increase the number of people participating in the stacks ecosystem.
 # Further planned developments:
 
 1. Flexible definition of the distribution key
+
 The current version of the contract has the distribution key (8 – 4 – 2 – 1) which is hard coded into
 the function “compute-shares”. Following versions will provide the possibility for the contract owner
 to define other distribution keys, to cater to different situations. E.g. (10 – 3 – 2 – 1).
 
 2. Design of the NFTs used in the contract:
+
 The current version of the contract uses 4 NFTs. The design of these NFTs will follow soon.
 
 3. Front End development:
+
 A front end will be developed to provide a user friendly interface for:
 - sponsors to fund the contract
 - the contract owner to whitelist the evaluators
