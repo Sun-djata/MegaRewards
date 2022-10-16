@@ -1,5 +1,5 @@
 
-                                       ####### MEGA REWARDS #####
+#                                       ####### MEGA REWARDS #######
 
 # Description:
 
