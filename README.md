@@ -33,10 +33,10 @@ way that:
         randomly chosen).
 
 Additionally each participant will receive an NFT according to the grade achieved:
-     MegaRewards-GRADE-A-NFT for the grade A participants
-     MegaRewards-GRADE-B-NFT for the grade B participants
-     MegaRewards-GRADE-C-NFT for the grade C participants
-     MegaRewards-GRADE-D-NFT for the grade D participants
+    - MegaRewards-GRADE-A-NFT for the grade A participants
+    - MegaRewards-GRADE-B-NFT for the grade B participants
+    - MegaRewards-GRADE-C-NFT for the grade C participants
+    - MegaRewards-GRADE-D-NFT for the grade D participants
 
 
 
