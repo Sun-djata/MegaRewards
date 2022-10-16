@@ -1,0 +1,46 @@
+[project]
+name = "mega-rewards"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+boot_contracts = ["pox", "costs-v2", "bns"]
+
+[project.cache_location]
+path = ".requirements"
+[contracts.mega-rewards]
+path = "contracts/mega-rewards.clar"
+
+[contracts.mr-grade-a-nft]
+path = "contracts/mr-grade-a-nft.clar"
+
+[contracts.mr-grade-b-nft]
+path = "contracts/mr-grade-b-nft.clar"
+
+[contracts.mr-grade-c-nft]
+path = "contracts/mr-grade-c-nft.clar"
+
+[contracts.mr-grade-d-nft]
+path = "contracts/mr-grade-d-nft.clar"
+
+[contracts.mr-token]
+path = "contracts/mr-token.clar"
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+
+[contracts.sip010-ft-trait]
+path = "contracts/sip010-ft-trait.clar"
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
