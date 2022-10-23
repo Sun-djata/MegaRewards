@@ -16,6 +16,7 @@ Functions called: mint, fund-contract
 (contract-call? .mega-rewards fund-contract .mr-token u2000 u2000)
 
 
+
 If the sponsor is different then the deployer then use these commands to fund the contract. 
 
 (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.mr-token mint u2000 tx-sender)
@@ -75,7 +76,7 @@ Functions called: get-current-stats
 ### 8- Send the funds to each laureate. 
 Only the deployer can transfer the shares to the laureates.
    
-    Note: the first principal in the list of principals of grade A will receive in addition to the grade A share (in this example 695STX and 695Token), the small remainder (7STX and 7Token) that will remain after the computation of the shares. 
+Note: the first principal in the list of principals of grade A will receive in addition to the grade A share (in this example 695STX and 695Token), the small remainder (7STX and 7Token) that will remain after the computation of the shares. 
 
 Functions called: bestow-laureates
 		
